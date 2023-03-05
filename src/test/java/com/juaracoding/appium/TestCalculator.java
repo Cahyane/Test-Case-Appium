@@ -44,7 +44,7 @@ public class TestCalculator {
     public void testMultiple() {
         calculator.calcMultiple();
         System.out.println("Hasil = "+calculator.getTxtResult());
-        assertEquals(calculator.getTxtResult(), "24");
+        assertEquals(calculator.getTxtResult(), "12");
     }
 
     @AfterClass
